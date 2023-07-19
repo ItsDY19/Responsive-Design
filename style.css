@@ -1,0 +1,113 @@
+body {
+    background-color: #0a0c1b;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.left-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+    background-color: #1c1938;
+
+}
+
+.left-container p {
+    line-height: 1.7;
+    padding-bottom: 10%;
+}
+
+span {
+    color: #a95fd3;
+}
+
+p {
+    color: #7d7a93;
+}
+
+.sub-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub-container p {
+    font-size: small;
+    font-weight: bold;
+}
+
+.sub-container p, .sub-container h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+
+.right-container {
+    display: flex;
+
+    flex-wrap: wrap;
+    width: 50%;
+    background: url(https://www.zdnet.com/a/img/resize/adafeb35bd4365f6092aad5787c0df5a9841431e/2021/09/15/9be6a646-a50d-4bb8-a55d-60ed5acfc871/women-developers-pay-euqality-coding-programmers-gender-pay-gap.jpg?auto=webp&fit=crop&height=1200&width=1200) 0 0 no-repeat;
+    overflow: hidden;
+    background-color: rgba(157,83,202,255);
+    background-blend-mode:multiply;
+    background-size: 100% 100%;
+}
+
+
+@media only screen and (max-width: 425px) {
+    .container {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 30%;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        height: max-content;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+    }
+
+}
